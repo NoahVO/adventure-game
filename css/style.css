@@ -1,0 +1,67 @@
+body {
+	background-color: lightgrey;
+}
+
+.opties {
+ 	display: table;
+  	margin: 0 auto;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    width: 30%;
+    border: 1px solid #021a40;
+}
+
+#sectie {
+	text-align: center;
+}
+
+#startbutton {
+	padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+button {
+	display: inline-block;
+	width: 10%;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+#intro {
+    display: block;
+    margin: auto;
+    width: 30%;
+    border: 1px solid #021a40;
+    font-size: 14px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .26em; /* Adjust as needed */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 30% }
+}
+
+#sleutel {
+	width: 4%;
+	margin: auto;
+}
